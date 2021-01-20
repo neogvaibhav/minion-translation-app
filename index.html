@@ -1,17 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>talk like minion</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        textarea {
+            display: block;
+            width: 50%;
+            height: 20vh;
+            padding: 15px;
+           margin-left: auto;
+           margin-right: auto;
+           
+           
+        }
+
+        #txt-output {
+            display:block;
+            border: 1px solid black;
+            width: 50%;
+            height: 20vh;
+            padding: 15px;
+            margin-left: auto;
+           margin-right: auto;
+           background-color: white;
+
+        }
+    </style>
 </head>
+
 <body>
-    <h1>English text</h1>
-    <button id="btn-translate">translate</button>
-    <textarea  id="txt-input" 
-    placeholder="enter your text which is to be translated"></textarea>
+    <nav class="navigation">
+        <div class="nav-brand">the minion translate</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <img class="hero-image" src="hero.png" alt="">
+        <div class="container center-container">
+            <h1 class="hero-heading">Hello humans dont you understand my language?? dont worry this time I have
+                something for you!! </h1>
+        </div>
+    </header>
+
+    <section class="section section-grey">
+        <div class="container center-container">
+            <h1 class="hero-heading-two"> check below to see some magic👇 </h1>
+        </div>
+    </section>
     
 
-   <script src="script.js"></script> 
+    <div class="container fluid-container">
+        <div class="container center-container">
+            <textarea id="txt-input" placeholder="enter your text which is to be translated"></textarea>
+            <button id="btn-translate" class="link-two primary-link">translate</button>
+    
+            <div id="txt-output">hello world</div>
+        </div>
+     </div>
+
+
+     <footer class="footer">
+        <div class="footer-header" >header inside footer</div>
+    <ul class="social-link list-non-bullet">
+       
+        <li class="list-inline"><a class="link" href="/">social one</a></li>
+        <li class="list-inline"><a class="link" href="/">social one</a></li>
+        <li class="list-inline"><a class="link" href="/">social one</a></li>
+
+    </ul>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

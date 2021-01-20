@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color :#FFD55E
+    ;
+
+}
+
+
+
+
+body{
+    font-family: 'montserrat' ,sans-serif;
+    margin: 0px
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+
+.container{
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.fluid-container{
+    background-color:var(--primary-color);
+    padding: 2px;
+}
+
+.center-container{
+    max-width: 600px;
+    margin: auto;
+    padding: 1px
+}
+
+
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    
+    
+}
+.link-two{
+    margin: auto;
+    display: block;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    background:#115695;;
+
+}
+
+
+.link-primary{
+    background-color:var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    
+}
+
+.link-secondary{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.showcase-list {
+    padding: 2rem;
+}
+
+.navigation{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+.navigation .link{
+    color: white ;
+}
+
+.nav-pills{
+    text-align: right;
+}
+
+.link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--primary-color);
+
+}
+
+.hero-image{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    color:black;
+    font-size: 22px;
+}
+
+.hero-heading-two{
+    color:  #115695 ;
+    font-size: 20px;
+    padding: 0.5px;
+}
+
+.hero-heading-bold{
+    color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+    background-color: var(--primary-color);
+}
+
+.section h1{
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.section-grey{
+    background-color: white;
+    padding: 1px
+}
+
+.footer{
+    background-color: black;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+    
+}
+
+.footer-header{
+    font-weight: bold;
+    font-size: large;
+
+}
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.translatearea{
+  margin:auto;
+    width: 500px;
+    background-color: var(--primary-color);
+}
+
+
+
+
